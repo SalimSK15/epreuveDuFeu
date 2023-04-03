@@ -5,15 +5,6 @@ const log = console.log;
 function siNumerique(argument){
     return /^-?\d+$/.test(argument)
 }
-function espaceEntreLigne(){
-    let chaineEspace = "";
-
-    for(let i = 0; i < valeurEntree01; i++){
-        chaineEspace += " ";
-    }
-
-    return chaineEspace;
-}
 //***************************************************** resolution
 function rectangle(valeurEntree01,valeurEntree02){
     let schema = "";
