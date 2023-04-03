@@ -193,7 +193,5 @@ if(gestionErrOk(args)){
     do {
         expressionSaisi = evaluationParenthese(expressionSaisi);
     } while (expressionSaisi.length > 3);
-    console.log(expressionSaisi);
-
-    
+    console.log(expressionSaisi); 
 }
